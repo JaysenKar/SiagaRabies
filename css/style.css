@@ -618,7 +618,7 @@ body {
   left: -30px;
 }
 
-.copyright {
+.copyright, .credit {
   padding-top: 20px;
   color: #696E8E;
   margin: 0 auto;
@@ -654,8 +654,11 @@ body {
     flex-direction: column;
   }
   #tentang-kami .tentang-kami-frame .tentang-kami-brand {
-    overflow: hiddens;
+    overflow: hidden;
+    width: 100%;
     border-radius: 20px 20px 20px 20px;
+  }
+  #tentang-kami .tentang-kami-frame .tentang-kami-brand .brand-text {
     margin-top: 20px;
   }
   #detail .definisi {
