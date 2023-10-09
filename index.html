@@ -15,93 +15,91 @@
     <!-- site title -->
     <title>SiagaRabies! | Home</title>
 
-    <link rel="shortcut icon" href="assets/image/favicon.png" type="image/x-icon">
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- link chart -->
+
+    <link rel="shortcut icon" href="assets/image/favicon.png" type="image/x-icon">
 
     
 </head>
 <body>
 
     
-    <!-- background circle -->
  
 
     <!-- container -->
+    <div class="loading">
+        <p>Loading...</p>
+        <img src="assets/image/loading.gif"alt="" width="200">
+    </div>
 
         <div class="container">
-            <!-- <svg width="547" height="545" viewBox="0 0 547 545" fill="none" xmlns="http://www.w3.org/2000/svg" class="green-1 circle">
-                <path d="M545.89 256.79C554.432 406.896 439.259 535.528 288.645 544.099C138.03 552.67 9.0083 437.934 0.466429 287.828C-8.07544 137.722 107.097 9.08968 257.712 0.518841C408.327 -8.052 537.348 106.685 545.89 256.79Z" fill="#6BCBB8" fill-opacity="0.4"/>
-                </svg>
-            <svg width="547" height="545" viewBox="0 0 547 545" fill="none" xmlns="http://www.w3.org/2000/svg" class="green-2 circle">
-                <path d="M545.89 256.79C554.432 406.896 439.259 535.528 288.645 544.099C138.03 552.67 9.0083 437.934 0.466429 287.828C-8.07544 137.722 107.097 9.08968 257.712 0.518841C408.327 -8.052 537.348 106.685 545.89 256.79Z" fill="#6BCBB8" fill-opacity="0.4"/>
-                </svg>
-                 -->
-                <svg width="800" height="800" viewBox="0 0 1404 1268" fill="none" xmlns="http://www.w3.org/2000/svg" class="yellow-1 circle">
-                    <path d="M1404 634C1404 984.149 1089.7 1268 702 1268C314.296 1268 0 984.149 0 634C0 283.851 314.296 0 702 0C1089.7 0 1404 283.851 1404 634Z" fill="#FEC47B"/>
-                    </svg>
-<!-- 
-                    <svg width="800" height="800" viewBox="0 0 1404 1268" fill="none" xmlns="http://www.w3.org/2000/svg" class="yellow-2 circle">
-                        <path d="M1404 634C1404 984.149 1089.7 1268 702 1268C314.296 1268 0 984.149 0 634C0 283.851 314.296 0 702 0C1089.7 0 1404 283.851 1404 634Z" fill="#FEC47B"/>
-                        </svg> -->
 
+            <!-- background circle -->
+            <svg width="547" height="545" viewBox="0 0 547 545" fill="none" xmlns="http://www.w3.org/2000/svg" class="green-1 circle">
+                <path d="M545.89 256.79C554.432 406.896 439.259 535.528 288.645 544.099C138.03 552.67 9.0083 437.934 0.466429 287.828C-8.07544 137.722 107.097 9.08968 257.712 0.518841C408.327 -8.052 537.348 106.685 545.89 256.79Z" fill="#d3fcf4" />
+                </svg>
+         
+                
+                <svg  width="800" height="800" viewBox="0 0 1404 1268" fill="none" xmlns="http://www.w3.org/2000/svg" class="yellow-1 circle">
+                    <path d="M1404 634C1404 984.149 1089.7 1268 702 1268C314.296 1268 0 984.149 0 634C0 283.851 314.296 0 702 0C1089.7 0 1404 283.851 1404 634Z" fill="#f8e2c7"/>
+                    </svg>
             <!-- home section -->
             <div id="beranda">
         
                 <!--  background -->
-             
-                    
-                    
-                    
-                <div class="home-text">
+             <div class="home-frame">
+                <div class="home-text" data-aos="fade-right" data-aos-once="true">
                     <h1>
                         Waspada Terhadap <span class="rabies">Rabies</span>
                     </h1>
-                    <!-- <p>
-                        Penyakit Zoonosis yang dapat mematikan dan mengancam manusia.   
-                    </p> -->
+                  
                     <div class="home-button">
-                        <button class="home-button-1">Lihat Selengkapnya</button>
-                        <button class="home-button-2">Laporkan Kasus</button>
+                       <a href="#detail"><button class="home-button-1">Lihat Selengkapnya</button></a> 
+                        <a href="#lapor"><button class="home-button-2">Laporkan Kasus</button></a>
                     </div>
                     
                 </div>
         
-                <div class="home-image">
+                <div class="home-image" data-aos="fade-left" data-aos-once="true">
                     <img src="assets/image/home-image.png" alt="Kucing Anjing Monyet" >
                 </div>
-            </div>
-        
-            <!-- detail section -->
-                <!-- waspada -->
+             </div>
+                
                 <div class="waspada">
-                    <h2>Kenapa Harus Waspada <span class="rabies"> Rabies</span>?</h2>
+                    <h2 data-aos="fade-up" data-aos-once="true">Kenapa Harus Waspada <span class="rabies"> Rabies</span>?</h2>
                 <div class="waspada-card-frame">
-                    <div class="waspada-card">
+                    <div class="waspada-card" data-aos="fade-up" data-aos-once="true">
                         <iconify-icon icon="fluent-emoji-high-contrast:skull-and-crossbones" style="color: #ff5100;" width="40" height="40"></iconify-icon>
                         <p class="waspada-card-title">Berpotensi Kematian</p>
                         <p class="waspada-card-text">Rabies dapat menyebabkan kematian jika tidak segera diobati setelah terpapar.</p>
                     </div>
-                    <div class="waspada-card">
+                    <div class="waspada-card" data-aos="fade-up" data-aos-once="true">
                         <iconify-icon icon="icon-park-outline:medical-box" style="color: #6BCBB8;" width="40" height="40"></iconify-icon>
                         <p class="waspada-card-title">Penyembuhan Sulit</p>
                         <p class="waspada-card-text">Rabies tidak memiliki pengobatan yang efektif setelah gejala muncul. Oleh karena itu, pencegahan sangat penting.</p>
                     </div>
-                    <div class="waspada-card">
+                    <div class="waspada-card" data-aos="fade-up" data-aos-once="true">
                         <iconify-icon icon="fluent:animal-dog-24-regular" style="color: #121F49;" width="40" height="40"></iconify-icon>
                         <p class="waspada-card-title">Tingginya Risiko Penularan</p>
                         <p class="waspada-card-text">Rabies dapat dengan mudah menyebar melalui gigitan atau cakaran hewan, bahkan melalui air liur terinfeksi.</p>
                     </div>
                 </div>
              </div>
+            </div>
+        
+            <!-- detail section -->
+                <!-- waspada -->
                 
-                <div id="tentang-kami">
-                    <div class="tentang-kami-frame">
-                        <div class="tentang-kami-brand">
+                
+                <div id="tentang-kami" >
+                    <div class="tentang-kami-frame"data-aos="fade-up" data-aos-once="true">
+                        <div class="tentang-kami-brand" data-aos="fade-up" data-aos-once="true">
                             <h2 class="brand-text">SiagaRabies!</h2>
                             <img src="assets/image/tentang-kami.png" alt="" srcset="" >
                         </div>
-                        <div class="tentang-kami-text">
+                        <div class="tentang-kami-text" data-aos="fade-up" data-aos-once="true">
                             <h2 class="">Tentang Kami</h2>
                             <p><strong>SiagaRabies!</strong> adalah platform yang menyediakan informasi terkait rabies dan bertujuan meningkatkan kesadaran masyarakat tentang penyakit rabies. SiagaRabies! juga menyediakan informasi terkait lokasi Vaksin Anti Rabies yang ada di Indonesia.</p>
                         </div>
@@ -113,13 +111,13 @@
                     
                 <div class="definisi">
                     <div class="definisi-image">
-                        <img src="assets/image/rabies.jpg" alt="">
-                        <img src="assets/image/virus.jpg" alt="">
+                        <img src="assets/image/rabies.jpg" alt="" data-aos="fade-up" data-aos-once="true">
+                        <img src="assets/image/virus.jpg" alt="" data-aos="fade-up" data-aos-once="true">
                     </div>
                     <div class="definisi-text">
-                        <p class="section-name">Definisi Umum</p>
-                        <h2>Apa Itu <span class="rabies">Rabies</span> ?</h2>
-                        <P>
+                        <p class="section-name" data-aos="fade-up" data-aos-once="true">Definisi Umum</p>
+                        <h2 data-aos="fade-up" data-aos-once="true">Apa Itu <span class="rabies">Rabies</span>?</h2>
+                        <P data-aos="fade-up" data-aos-once="true">
                            <strong>Rabies</strong> merupakan salah satu penyakit zoonosis yaitu penyakit yang menular dari hewan ke manusia. Infeksi ini ditularkan oleh hewan yang terinfeksi penyakit rabies. Hewan utama sebagai penyebab penyebaran rabies adalah anjing, kelelawar, kucing dan kera. Penyakit ini menyerang susunan saraf pusat yang disebabkan oleh <strong><i>Lyssavirus</i></strong>.  
                         </P>
                     </div>
@@ -128,20 +126,21 @@
                 <!-- chart -->
                 <div class="chart">
                     <div class="chart-text">
-                        <p class="section-name">Diagram Data</p>
-                        <h2>Situasi <span class="rabies">Rabies</span> di Indonesia Tahun 2020 - April 2023</h2>
+                        <p class="section-name" data-aos="fade-up" data-aos-once="true">Diagram Data</p>
+                        <h2>Situasi <span class="rabies" data-aos="fade-up" data-aos-once="true">Rabies</span> di Indonesia Tahun 2020 - April 2023</h2>
         
                     </div>
-                    <canvas id="canvas_chart" width="200" height="130"></canvas>
+                    <canvas id="canvas_chart" data-aos="fade-up" data-aos-once="true"></canvas>
+                    <!-- width="200" height="130" -->
                 </div>
         
                 <!-- Gejala section -->
                 <div class="gejala">
                    
-                        <div class="gejala-text">
-                            <p class="section-name">Ciri</p>
-                            <h2>Gejala <span class="rabies">Rabies</span></h2>
-                            <ul>
+                        <div class="gejala-text" >
+                            <p class="section-name" data-aos="fade-up" data-aos-once="true">Ciri</p>
+                            <h2 data-aos="fade-up" data-aos-once="true">Gejala <span class="rabies" >Rabies</span></h2>
+                            <ul data-aos="fade-up" data-aos-once="true">
                                 <li>Sakit kepala dan demam tinggi</li>
                                 <li>Perubahan perilaku, seperti kecemasan atau agresivitas</li>
                                 <li>Kesulitan menelan dan ketakutan akan air (hidrofobia)</li>
@@ -149,15 +148,15 @@
                             <br>
                             <p><strong>Jika Anda atau hewan Anda mengalami gejala-gejala ini, segera cari bantuan medis.</strong></p>
                         </div>
-                        <div class="gejala-video">
-                            <iframe style="width: 100%;"  height="320" src="https://www.youtube.com/embed/6ADoE-Cq4gI" title="Reaksi ibu ini terkena efek rabies gigitan anjing#rabies #penyakit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            <p class="copyright" style="padding: 0!important;">Sumber: https://www.youtube.com/@mr.codet7706 <a href="https://www.youtube.com/shorts/6ADoE-Cq4gI?feature=share"> Link Video</a></p>
+                        <div class="gejala-video" data-aos="fade-up" data-aos-once="true">
+                            <iframe style="width: 100%"  height="320" src="https://www.youtube.com/embed/6ADoE-Cq4gI" title="Reaksi ibu ini terkena efek rabies gigitan anjing#rabies #penyakit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <p class="credit" style="padding: 0!important;">Sumber: https://www.youtube.com/@mr.codet7706 <a href="https://www.youtube.com/shorts/6ADoE-Cq4gI?feature=share"> Link Video</a></p>
                         </div>
                 </div>
                 <div class="mencegah">
-                    <p class="section-name">Cara</p>
-                    <h2>Mencegah <span class="rabies">Rabies</span></h2>
-                    <div class="mencegah-card">
+                    <p class="section-name" data-aos="fade-up" data-aos-once="true">Cara</p>
+                    <h2>Mencegah <span class="rabies" data-aos="fade-up" data-aos-once="true">Rabies</span></h2>
+                    <div class="mencegah-card" data-aos="fade-up" data-aos-once="true">
                         <div class="mencegah-card-text">
                             <p>
                                 Vaksinasi Hewan Peliharaan
@@ -171,7 +170,7 @@
                         </div>
                     </div>
                     
-                    <div class="mencegah-card">
+                    <div class="mencegah-card" data-aos="fade-up" data-aos-once="true">
                         <div class="mencegah-card-text">
                             <p>
                                 Hindari Kontak Langsung Dengan Hewan Liar
@@ -184,7 +183,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="mencegah-card">
+                    <div class="mencegah-card" data-aos="fade-up" data-aos-once="true">
                         <div class="mencegah-card-text">
                             <p>
                                 Segera Cuci Luka Akibat Gigitan
@@ -199,7 +198,7 @@
 
                         </div>
                     </div>
-                    <div class="mencegah-card">
+                    <div class="mencegah-card" data-aos="fade-up" data-aos-once="true">
                         <div class="mencegah-card-text">
                             <p>
                                 Lakukan Vaksinasi Setelah Tergigit dan Tercakar Hewan
@@ -219,10 +218,9 @@
         
             <!-- lokasi vaksin section -->
             <div id="lokasi-vaksin">
-                <div class="map">
-                    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Puskesmas sawan 1&amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections NYT</a></div><style>.mapouter{position:relative;width:100%;height:100%; left: 0;  }.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:100% ; left: 0; }.gmap_iframe {width:100%!important;height:100%!important;}</style></div>
-                </div>
-                <div class="place-list">
+                <div class="map" data-aos="fade-up" data-aos-once="true">
+                        <iframe class="map_iframe" width="100%"  style="height: 100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Puskesmas%20Sawan%201+()&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population calculator map</a></iframe></div>
+                <div class="place-list" data-aos="fade-up" data-aos-once="true">
                     <div class="place-list-text">
                         <h2>Temukan Lokasi Vaksin Anti Rabies!</h2>
                         <div class="cari">
@@ -234,26 +232,26 @@
                         <div class="tempat-card">
                             <div class="tempat-card-text">
                                 <p><strong>Puskesmas Sawan I</strong></p>
-                                <p>Buka Jam 07.00 - 10.00 Senin - Sabtu</p>
+                                <p>Buka Pukul 07.00 - 10.00 Senin - Sabtu</p>
                                 <button>Lihat Lokasi</button>
                             </div>
                             <img src="assets/image/puskesmas-sawan.webp" alt="">
                         </div>
                         <div class="tempat-card">
                             <div class="tempat-card-text">
-                                <p><strong>Puskesmas Sawan I</strong></p>
-                                <p>Buka Jam 07.00 - 10.00 Senin - Sabtu</p>
+                                <p><strong>RS Kertha Usada Singaraja</strong></p>
+                                <p>Buka Pukul 08.00 - 17.00 Setiap Hari</p>
                                 <button>Lihat Lokasi</button>
                             </div>
-                            <img src="assets/image/puskesmas-sawan.webp" alt="">
+                            <img src="assets/image/rsu-kertha-usada.jpg" alt="">
                         </div>
                         <div class="tempat-card">
                             <div class="tempat-card-text">
-                                <p><strong>Puskesmas Sawan I</strong></p>
-                                <p>Buka Jam 07.00 - 10.00 Senin - Sabtu</p>
+                                <p><strong>Puskesmas Buleleng I</strong></p>
+                                <p>Buka Pukul 08.00 - 17.00 Setiap Hari</p>
                                 <button>Lihat Lokasi</button>
                             </div>
-                            <img src="assets/image/puskesmas-sawan.webp" alt="">
+                            <img src="assets/image/puskesmas-buleleng-1.jpg" alt="">
                         </div>
                         <div class="tempat-card">
                             <div class="tempat-card-text">
@@ -270,11 +268,11 @@
             <!-- lapor section -->
             
         </div> 
-        <div id="lapor">
+        <div id="lapor" data-aos="fade-up" data-aos-once="true">
             <!-- <h2>Sama-sama Waspada Terhadap Rabies!</h2> -->
-
-            <div class="lapor-frame">
-                    <div class="lapor-section">
+            <div class="lapor-content">
+                <div class="lapor-frame">
+                    <div class="lapor-section" data-aos="fade-up" data-aos-once="true">
                         <form action="">
                             <h2>Laporkan Kasus</h2>
                             <div class="row-input row-1">
@@ -325,25 +323,26 @@
                        
                         </div>
                         <footer>
-                            <div class="footer-section alamat">
+                            <div class="footer-section alamat" data-aos="fade-up" data-aos-once="true">
                                 <h3><iconify-icon icon="mdi:location" class="icon alamat-icon" width="24"></iconify-icon>Alamat SiagaRabies!</h3>
                                 <p>Jln. Pulau Timor  Nomor 24, Banyuning Barat, Buleleng, Bali</p>
                             </div>
-                            <div class="footer-section dukung">
+                            <div class="footer-section dukung" data-aos="fade-up" data-aos-once="true">
                                 <h3><iconify-icon icon="mdi:hand-heart" class="icon dukung-icon" width="24"></iconify-icon>Didukung Oleh</h3>
                                 <p>SiagaRabies! bersama dengan Dinas Kesehatan menanggulangi Kasus Rabies di Indonesia</p>
                             </div>
-                            <div class="footer-section kontak">
+                            <div class="footer-section kontak" data-aos="fade-up" data-aos-once="true">
                                 <h3><iconify-icon icon="material-symbols:contact-support" class="icon kontak-icon" width="24"></iconify-icon>Kontak Kami</h3>
                                 <p>No. Telepon: (0362) 123456</p>
                                 <p>E-mail: siagarabies@gmail.com</p>
                             </div>
-                            <div class="footer-section sosial">
+                            <div class="footer-section sosial" data-aos="fade-up" data-aos-once="true">
                                 <h3><iconify-icon icon="ion:share-social" class="icon sosial-icon" width="24"></iconify-icon>Media Sosial Kami</h3>
                                 
                                 <!-- social icon -->
                                 <div class="social-frame">
-                                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <a href="https://instagram.com/" target="_blank">
+                                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <rect width="46" height="46" rx="23" fill="white"/>
                                         <path d="M29.375 11H16.625C13.5184 11 11 13.5184 11 16.625V29.375C11 32.4816 13.5184 35 16.625 35H29.375C32.4816 35 35 32.4816 35 29.375V16.625C35 13.5184 32.4816 11 29.375 11Z" fill="url(#paint0_radial_221_3)"/>
                                         <path d="M29.375 11H16.625C13.5184 11 11 13.5184 11 16.625V29.375C11 32.4816 13.5184 35 16.625 35H29.375C32.4816 35 35 32.4816 35 29.375V16.625C35 13.5184 32.4816 11 29.375 11Z" fill="url(#paint1_radial_221_3)"/>
@@ -362,32 +361,48 @@
                                         </radialGradient>
                                         </defs>
                                         </svg>
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank">
                                         <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width="46" height="46" rx="23" fill="white"/>
-                                            <path d="M34.7666 20.6498H33.8V20.6H23V25.4H29.7818C28.7924 28.1942 26.1338 30.2 23 30.2C19.0238 30.2 15.8 26.9762 15.8 23C15.8 19.0238 19.0238 15.8 23 15.8C24.8354 15.8 26.5052 16.4924 27.7766 17.6234L31.1708 14.2292C29.0276 12.2318 26.1608 11 23 11C16.373 11 11 16.373 11 23C11 29.627 16.373 35 23 35C29.627 35 35 29.627 35 23C35 22.1954 34.9172 21.41 34.7666 20.6498Z" fill="#FFC107"/>
-                                            <path d="M12.3836 17.4146L16.3262 20.306C17.393 17.6648 19.9766 15.8 23 15.8C24.8354 15.8 26.5052 16.4924 27.7766 17.6234L31.1708 14.2292C29.0276 12.2318 26.1608 11 23 11C18.3908 11 14.3936 13.6022 12.3836 17.4146Z" fill="#FF3D00"/>
-                                            <path d="M23 35C26.0996 35 28.916 33.8138 31.0454 31.8848L27.3314 28.742C26.0861 29.689 24.5645 30.2012 23 30.2C19.8788 30.2 17.2286 28.2098 16.2302 25.4324L12.317 28.4474C14.303 32.3336 18.3362 35 23 35Z" fill="#4CAF50"/>
-                                            <path d="M34.7666 20.6498H33.8V20.6H23V25.4H29.7818C29.3085 26.7298 28.456 27.8919 27.3296 28.7426L27.3314 28.742L31.0454 31.8848C30.7826 32.1236 35 29 35 23C35 22.1954 34.9172 21.41 34.7666 20.6498Z" fill="#1976D2"/>
-                                            </svg>
+                                            <g clip-path="url(#clip0_221_3)">
+                                            <path d="M37.3986 13.9223C36.2978 14.41 35.1302 14.7301 33.9346 14.872C35.1799 14.1256 36.1361 12.9436 36.5864 11.5353C35.4025 12.2378 34.1073 12.7328 32.7566 12.9989C31.6564 11.8268 30.089 11.0942 28.3543 11.0942C25.0234 11.0942 22.3229 13.7946 22.3229 17.1252C22.3229 17.598 22.3763 18.0583 22.4791 18.4998C17.4667 18.2482 13.0226 15.8472 10.0479 12.1982C9.52885 13.089 9.23144 14.1251 9.23144 15.2303C9.23144 17.3228 10.2963 19.1687 11.9145 20.2503C10.9567 20.2203 10.02 19.9616 9.18263 19.4958C9.18229 19.5211 9.18229 19.5464 9.18229 19.5718C9.18229 22.4939 11.2612 24.9316 14.0202 25.4856C13.1321 25.7272 12.2005 25.7625 11.2966 25.589C12.064 27.9851 14.2914 29.7287 16.9305 29.7775C14.8664 31.395 12.2658 32.3593 9.4402 32.3593C8.95331 32.3593 8.47331 32.3307 8.00146 32.275C10.6705 33.9862 13.8407 34.9847 17.2466 34.9847C28.3403 34.9847 34.4065 25.7945 34.4065 17.8247C34.4065 17.5631 34.4008 17.303 34.3891 17.0444C35.5698 16.1908 36.5889 15.1336 37.3986 13.9223Z" fill="#55ACEE"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_221_3">
+                                            <rect width="29.4" height="24" fill="white" transform="translate(8 11)"/>
+                                            </clipPath>
+                                            </defs>
+                                            </svg>    
+                                    </a>
+                                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+                                            
                                             <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <rect width="46" height="46" rx="23" fill="white"/>
                                                 <path d="M28.7853 19.6417C30.536 20.7462 32.6808 21.396 34.9972 21.396V17.4625C34.5588 17.4625 34.1216 17.4222 33.6927 17.342V20.4382C31.3764 20.4382 29.2319 19.7885 27.4808 18.6841V26.7114C27.4808 30.7271 23.7918 33.9821 19.2416 33.9821C17.5438 33.9821 15.9657 33.5292 14.6549 32.7524C16.1511 34.1024 18.2376 34.9398 20.5458 34.9398C25.0964 34.9398 28.7854 31.6848 28.7854 27.6689L28.7853 19.6417ZM30.3947 15.6733C29.4999 14.8107 28.9124 13.6959 28.7853 12.4635V11.9576H27.549C27.8602 13.524 28.9217 14.8622 30.3947 15.6733ZM17.5329 29.6709C17.033 29.0926 16.7628 28.3849 16.764 27.6574C16.764 25.8208 18.4513 24.3317 20.533 24.3317C20.9209 24.3315 21.3065 24.3841 21.6763 24.4875V20.466C21.2441 20.4138 20.8081 20.3915 20.3722 20.3997V23.5298C20.0023 23.4263 19.6165 23.3738 19.2284 23.3741C17.1468 23.3741 15.4596 24.8631 15.4596 26.6999C15.4596 27.9987 16.3029 29.1231 17.5329 29.6709Z" fill="#FF004F"/>
                                                 <path d="M27.4808 18.6841C29.2319 19.7885 31.3764 20.4382 33.6927 20.4382V17.342C32.3997 17.0989 31.2552 16.5026 30.3947 15.6733C28.9217 14.8622 27.8602 13.524 27.549 11.9576H24.3018V27.6687C24.2944 29.5004 22.61 30.9834 20.5328 30.9834C19.3088 30.9834 18.2215 30.4686 17.5329 29.6709C16.3029 29.1231 15.4596 27.9987 15.4596 26.6999C15.4596 24.8631 17.1468 23.3741 19.2284 23.3741C19.6272 23.3741 20.0116 23.4289 20.3722 23.5298V20.3997C15.9019 20.4812 12.3067 23.7046 12.3067 27.6688C12.3067 29.6478 13.2018 31.4415 14.6549 32.7524C15.9657 33.5292 17.5438 33.9821 19.2416 33.9821C23.7918 33.9821 27.4808 30.7271 27.4808 26.7114V18.6841Z" fill="black"/>
                                                 <path d="M33.6927 17.342V16.5048C32.5267 16.5063 31.3839 16.2182 30.3947 15.6733C31.2703 16.5193 32.4233 17.1026 33.6927 17.342ZM27.549 11.9576C27.5194 11.8079 27.4965 11.6572 27.4807 11.5059V11H22.997V26.7113C22.9899 28.5428 21.3055 30.0258 19.2282 30.0258C18.6393 30.0266 18.0588 29.9049 17.5329 29.6709C18.2215 30.4686 19.3088 30.9834 20.5328 30.9834C22.61 30.9834 24.2944 29.5004 24.3018 27.6687V11.9576H27.549ZM20.3722 20.3997L20.3723 19.5085C19.9977 19.4633 19.62 19.4407 19.2418 19.4408C14.6911 19.4408 11.0022 22.696 11.0022 26.7113C11.0022 29.2287 12.4518 31.4473 14.6549 32.7524C13.2018 31.4415 12.3067 29.6478 12.3067 27.6688C12.3067 23.7046 15.9019 20.4812 20.3722 20.3997Z" fill="#00F2EA"/>
                                                 </svg>
-                                                <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <rect width="46" height="46" rx="23" fill="white"/>
-                                                    <path d="M29.1429 11.1731V14.9808H26.7546C25.8825 14.9808 25.2943 15.1538 24.9901 15.5C24.6858 15.8462 24.5337 16.3654 24.5337 17.0577V19.7837H28.9907L28.3975 24.0529H24.5337V35H19.879V24.0529H16V19.7837H19.879V16.6394C19.879 14.851 20.4063 13.4639 21.461 12.4784C22.5157 11.4928 23.9202 11 25.6746 11C27.1653 11 28.3214 11.0577 29.1429 11.1731Z" fill="#699BF7"/>
-                                                    </svg>       
+                                        </a>
+                                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                            <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="46" height="46" rx="23" fill="white"/>
+                                                <path d="M29.1429 11.1731V14.9808H26.7546C25.8825 14.9808 25.2943 15.1538 24.9901 15.5C24.6858 15.8462 24.5337 16.3654 24.5337 17.0577V19.7837H28.9907L28.3975 24.0529H24.5337V35H19.879V24.0529H16V19.7837H19.879V16.6394C19.879 14.851 20.4063 13.4639 21.461 12.4784C22.5157 11.4928 23.9202 11 25.6746 11C27.1653 11 28.3214 11.0577 29.1429 11.1731Z" fill="#699BF7"/>
+                                                </svg>       
+                                        </a>
                                 </div>                  
                             </div>
-                            <hr style="width: 70%;">
-                            <div class="copyright">
-                                <p>Copyright &copy; 2023 SiagaRabies!</p>
-                            </div>
-                        </footer>
+                            
+                        </footer>    
                     </div> 
+                    <div class="copyright" data-aos="fade-up" data-aos-once="true">
+                    <hr>
 
+                        <p>Copyright &copy; 2023 SiagaRabies!</p>
+                    </div>
+            </div>
+            
+                 
 </div>
             </div>
        
@@ -395,7 +410,7 @@
             
          <div class="navbar">
             <div class="logo">
-                <h3 class="">SiagaRabies!</h3>
+                <a href="https://jaysenkar.github.io/int5"><h3 class="">SiagaRabies!</h3></a>
             </div>
                     <ul>
                         <li><a href="#beranda">Beranda</a></li>
@@ -419,6 +434,11 @@
     <!--jquery library -->
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <!-- JS script -->
     <script src="script.js">
     

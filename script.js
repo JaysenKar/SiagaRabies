@@ -1,5 +1,34 @@
-    let a = "helooworld";
+
+
+// document ready
+$(document).ready(function(){
+    $('.loading').addClass('loaded');
+    setTimeout(function(){
+        $('.loading').css('display', 'none');
+    },500);
+})
+
+
+
+    // navbar active 
+    $(document).scroll(function(){
+        $('.navbar ul li a').each(function(){
+            var container = $(this).attr('href');
+            var containerOffset = $(container).offset().top;
+            var containerHeight = $(container).outerHeight();
+            var containerBottom = containerOffset + containerHeight;
+            var scrollPosition = $(document).scrollTop();
+            if(scrollPosition < containerBottom - 20 && scrollPosition >= containerOffset - 20){
+                $(this).addClass('active');
+            } else{
+                $(this).removeClass('active');
+            }
     
+    
+        });
+    });
+   
+
     // slide navbar
     $(".menu-toggle input").click(function(){
     $(".navbar ul").toggleClass('slide');
@@ -10,6 +39,7 @@
              $('.navbar').addClass("fix-navbar");
         } else {
          $('.navbar').removeClass("fix-navbar");
+         $('.navbar ul li a').first().removeClass('active');
         }	
    });
 
@@ -22,6 +52,12 @@
     index % 2 == 0 ? $(this).css("background", "#AADCD3") : $(this).css("background", "#E7E8EA");
    })
 
+   $('.tempat-card-text button').each(function (index) {
+    $(this).click(function (){x
+        $('.map_iframe').html(`<iframe class="map_iframe" width="100%"  style="height: 100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=${places[index]}+()&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population calculator map</a></iframe>`)
+    })
+
+   })
 
 
 //    canvas
@@ -49,7 +85,7 @@
                     },
                     {
                         type: "bar",
-                        label: "Kasus GHPR yang Mendapat Vaksin Anti Rabies",
+                        label: "Kasus GHPR yang Mendapat VAR",
                         data: [56797, 43779, 74888, 23211],
                         backgroundColor: ["#AADCD3"],
                         yAxisID: "y1"
