@@ -468,9 +468,14 @@ body {
     gap: 20px;
     align-items: flex-start;
     justify-content: space-around;
+    .gejala-text {
+      ul {
+        margin-top: 15px;
+      }
+    }
   }
   .mencegah {
-    margin-top: 70px;
+    margin-top: 150px;
 
     .section-name,
     h2 {
@@ -527,7 +532,7 @@ body {
   display: flex;
   max-width: 1100px;
   margin: 0 auto;
-  padding-top: 120px;
+  padding-top: 150px;
   padding-bottom: 120px;
   gap: 20px;
 
@@ -797,9 +802,7 @@ body {
       }
     }
   }
-  #waspada {
-    // margin: ;
-  }
+
   #tentang-kami {
     .tentang-kami-frame {
       flex-direction: column;

@@ -181,7 +181,7 @@ body {
   border-radius: 20px;
 }
 .navbar ul .active {
-  background: #6BCBB8;
+  background: #6bcbb8;
   color: white;
 }
 .navbar .menu-toggle {
@@ -236,7 +236,7 @@ body {
   margin-top: 0;
   top: 35px;
   border-radius: 100px;
-  background-color: #6BCBB8;
+  background-color: #6bcbb8;
   background: white;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2901960784);
   padding: 10px 30px;
@@ -278,9 +278,9 @@ body {
   gap: 10px;
 }
 #beranda .home-text .home-button-1 {
-  border: 2px solid #6BCBB8;
+  border: 2px solid #6bcbb8;
   color: white;
-  background: #6BCBB8;
+  background: #6bcbb8;
   text-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
 }
 #beranda .home-text .home-button-2 {
@@ -289,7 +289,7 @@ body {
 }
 #beranda .home-text .home-button-1:hover {
   background-color: rgba(107, 203, 184, 0);
-  color: #6BCBB8;
+  color: #6bcbb8;
 }
 #beranda .home-text .home-button-2:hover {
   background: #ff5100;
@@ -345,7 +345,7 @@ body {
   overflow: hidden;
   max-width: 1100px;
   margin: 0 auto;
-  background: #AADCD3;
+  background: #aadcd3;
   margin-top: 150px;
   display: flex;
   align-items: center;
@@ -369,6 +369,9 @@ body {
 #tentang-kami .tentang-kami-frame .tentang-kami-text {
   padding: 20px;
 }
+#tentang-kami .tentang-kami-frame .tentang-kami-text p {
+  margin-top: 8px;
+}
 
 #detail {
   max-width: 1100px;
@@ -376,7 +379,7 @@ body {
   padding-top: 20px;
 }
 #detail .section-name {
-  color: #6BCBB8;
+  color: #6bcbb8;
   font-weight: bold;
 }
 #detail .definisi {
@@ -431,10 +434,14 @@ body {
   align-items: flex-start;
   justify-content: space-around;
 }
-#detail .mencegah {
-  margin-top: 70px;
+#detail .gejala .gejala-text ul {
+  margin-top: 15px;
 }
-#detail .mencegah .section-name, #detail .mencegah h2 {
+#detail .mencegah {
+  margin-top: 150px;
+}
+#detail .mencegah .section-name,
+#detail .mencegah h2 {
   text-align: center;
 }
 #detail .mencegah .mencegah-card {
@@ -467,7 +474,7 @@ body {
   padding: 30px 70px;
 }
 #detail .mencegah .mencegah-card:nth-child(odd) {
-  background: #6BCBB8;
+  background: #6bcbb8;
 }
 #detail .mencegah .mencegah-card-detail {
   font-weight: normal;
@@ -487,7 +494,7 @@ body {
   display: flex;
   max-width: 1100px;
   margin: 0 auto;
-  padding-top: 120px;
+  padding-top: 150px;
   padding-bottom: 120px;
   gap: 20px;
 }
@@ -543,17 +550,17 @@ body {
   font-size: 10px;
   font-weight: bold;
   border-radius: 32px;
-  color: #6BCBB8;
-  border: #6BCBB8 1px solid;
+  color: #6bcbb8;
+  border: #6bcbb8 1px solid;
 }
 #lokasi-vaksin .place-list .place-list-card .tempat-card .tempat-card-text button:hover {
-  background: #6BCBB8;
+  background: #6bcbb8;
   color: white;
 }
 #lokasi-vaksin .place-list .place-list-card .tempat-card .tempat-card-text p:nth-child(2) {
   font-weight: bold;
   font-size: 10px;
-  color: #F9A11B;
+  color: #f9a11b;
 }
 #lokasi-vaksin .place-list .place-list-card .tempat-card img {
   -o-object-fit: fill;
@@ -571,7 +578,7 @@ body {
   border-radius: 100px;
 }
 #lokasi-vaksin .place-list .place-list-card::-webkit-scrollbar-thumb {
-  background-color: #AADCD3;
+  background-color: #aadcd3;
   border-radius: 100px;
 }
 
@@ -581,8 +588,8 @@ body {
   position: relative;
   border-radius: 50px 50px 0 0;
   padding-top: 120px;
-  color: #E7E8EA;
-  background: #121F49;
+  color: #e7e8ea;
+  background: #121f49;
 }
 #lapor h2 {
   text-align: center;
@@ -620,7 +627,7 @@ body {
   border: 2px solid white;
 }
 #lapor .lapor-frame .lapor-section .row-input button:hover {
-  color: #121F49;
+  color: #121f49;
   background-color: white;
 }
 #lapor .lapor-frame .lapor-section .row-input .input-lapor {
@@ -664,7 +671,9 @@ body {
   background: none;
   width: 100%;
 }
-#lapor .lapor-frame .lapor-section .row-input input, #lapor .lapor-frame .lapor-section .row-input textarea, #lapor .lapor-frame .lapor-section .row-input select {
+#lapor .lapor-frame .lapor-section .row-input input,
+#lapor .lapor-frame .lapor-section .row-input textarea,
+#lapor .lapor-frame .lapor-section .row-input select {
   font-size: 12px;
 }
 #lapor .lapor-frame footer .footer-section {
@@ -697,9 +706,10 @@ body {
   margin-top: 0;
 }
 
-.copyright, .credit {
+.copyright,
+.credit {
   padding-top: 20px;
-  color: #696E8E;
+  color: #696e8e;
   margin: 0 auto;
   font-size: 12px;
 }
@@ -805,7 +815,7 @@ body {
     width: 100%;
     transition: 0.5s all;
     justify-content: space-evenly;
-    background-color: #AADCD3;
+    background-color: #aadcd3;
     flex-direction: column;
     align-items: center;
     z-index: -1;
